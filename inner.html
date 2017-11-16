@@ -22,7 +22,7 @@
     <label class="visually-hidden">Оформить заказ</label></li>
     </ul>
     <ul class="login">
-      <li class="exit"><a href="login.html">Равшан Джамшутович</li>
+      <li class="exit"><a href="login.html">Равшан Джамшутович</a></li>
       <li class="my-buy"><a href="buy.html">Мои заказы</a></li>
       <li class="profile"><a href="profile.html">Личный кабинет</a></li>
       </ul>
@@ -72,9 +72,9 @@
       <fieldset>
             <legend>Производители:</legend>
 <ul class="manufacturers">
-  <li class="filter-option">
+    <li class="filter-option">
     <input class="visually-hidden" type="checkbox" name="bosch" id="bosch" checked>
-    <label for="bosh">BOSCH</label>
+    <label for="bosch">bosch</label>
       </li>
   <li class="filter-option">
     <input class="visually-hidden" type="checkbox" name="interskol" id="interskol" >
@@ -106,8 +106,9 @@
                 <label for="socket">Сетевые</label>
               </li>
         </ul> </fieldset>
-        <button type="submit" class="filter-button button">Показать</button></form>
-  <section class="sort-by">
+        <button type="submit" class="filter-button button">Показать</button></form></section>
+  <section class="sortby">
+    <h2 class="visually-hidden">Сортировка</h2>
     <fieldset>
     <legend>Сортировка</legend>
     <ul class="filter2">
@@ -119,10 +120,10 @@
 <label for="by-type">По типу</label></li>
 <li class="filter-option2">
   <input class="visually-hidden" type="checkbox" name="by-function" id="by-function">
-  <label for="by-function">По функционалу</label></li>
+  <label for="by-function">По функционалу</label></li></ul>
   <button class="sort-up-down">V</button>
   <button class="sort-up-down">Л</button>
-</ul></fieldset>
+</fieldset>
   </section>
   <section class="catalog">
 <h2 class="visually-hidden">Каталог перфораторов</h2>
@@ -262,8 +263,8 @@
   <section class="modal modal-cart">
 <h2>Товар добавлен в корзину</h2>
 <div>
-<input type="button" class="make-buy"><a href="buy.html">Оформить заказ</a>
-<input type="button" class="continue-choose"><a href="catalog.html">Продолжить покупки</a>
+<input type="button" class="make-buy" value="Оформить заказ"><a href="buy.html"></a>
+<input type="button" class="continue-choose" value="Продолжить покупки"><a href="catalog.html"></a>
 </div>
 <span class="modal-close">x</span>
   </section>
