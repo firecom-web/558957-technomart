@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header-logo:hover {
+  background: #ca2c37;
+}
+
+.main-header-logo:active {
+  background: #ba2732;
+}
+
+.user-navigation {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.user-navigation a:hover {
+  background-color: #293449;
+}
+
+.user-navigation a:active {
+  opacity: 0.5;
+}
+
+.user-panel,
+.site-navigation {
+  list-style: none;
+}
+
+.user-panel a,
+.site-navigation a {
+  color: #ffffff;
+}
+
+.user-panel a:hover {
+  background-color: #212a3a;
+}
+
+.user-panel a:focus {
+  background-color: #293449;
+}
+
+.search-in-site {
+  color: #ffffff;
+  background-color: #212a3a;
+}
+
+.search-in-site:focus {
+  color: black;
+  background-color: #ffffff;
+  }
+
+.login {
+  list-style: none;
+  font-size: 21px;
+  color: #black;
+  background: #ffffff;
+}
+
+.exit a {
+  font-size: 21px;
+  color: #000000;
+}
+
+.my-buy a,
+.profile a {
+  color: #32425c;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.my-buy a:hover,
+.profile a:hover {
+  color: #ba2732;
+}
+
+.exit a:active,
+.my-buy a:active,
+.profile a:active{
+  opacity: 0.3;
+}
+
+.login-button:hover,
+.register:hover {
+  color: #ee3643;
+  background: #ffffff;
+}
+
+.login-button:active,
+.register:active {
+  color: #b2b2b2;
+  background: #ffffff;
+}
+
+.slogan {
+  font-size: 16px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+address {
+  font-size: 21px;
+  font-style: normal;
+  color: #e9292a;
+  background-color: #f1f5f7;
+}
+
+.where {
+  font-size: 14px;
+  color: #32425c;
+}
