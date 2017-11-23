@@ -124,3 +124,83 @@ address {
   font-size: 14px;
   color: #32425c;
 }
+
+.feateres-item {
+  font-size: 24px;
+  text-decoration: none;
+}
+.feateres-item a {
+  color: #ffffff;
+}
+
+.feateres-item p {
+font-size: 14px;
+color: #ffffff;
+background-color: #000000;
+opacity: 0.1;
+}
+
+.feateres-item1 {
+  background-color: #f6b22d;
+}
+
+.feateres-item1 a {
+  color: #ffffff;
+}
+
+.feateres-item1 p {
+  background-color: #000000;
+  opacity: 0.1;
+}
+
+.feateres-item2 {
+  background-color: #3bbce3;
+}
+
+.feateres-item2 p {
+  background-color: #000000;
+  opacity: 0.1;
+}
+
+.feateres-item2 a {
+  color: #ffffff;
+}
+
+.feateres-item3 {
+  background-color: #dc91d8;
+  }
+
+.feateres-item3 a {
+  color: #ffffff;
+}
+
+.feateres-item3 p {
+  background-color: #000000;
+  opacity: 0.1;
+}
+
+.feateres-item4 {
+  background-color: #8ed78f;
+}
+
+.feateres-item4 a {
+  color: #ffffff;
+}
+
+.feateres-item4 p {
+  background-color: #000000;
+  opacity: 0.1;
+}
+
+.feateres-item5 {
+  background-color: #ffc047;
+}
+
+.feateres-item5 a {
+  color: #ffffff;
+}
+
+.feateres-item5 p {
+  background-color: #000000;
+  opacity: 0.1;
+}
