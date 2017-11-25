@@ -10,6 +10,10 @@ body {
   text-transform: uppercase;
 }
 
+.visually-hidden {
+visibility: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -291,3 +295,125 @@ background-color: rgba(0,0,0,0.1);
     background-color: #f9f5f0;
     color: #32425c;
   }
+
+  .popular-button {
+    color: #ffffff;
+    background-color: #ee3643;
+  }
+
+  .catalog-item {
+    color: #000000;
+    list-style: none;
+    border: 2px solid #eaeaea;
+    padding: 5px;
+  }
+
+  .catalog-item h3 {
+    font-size: 18px;
+  }
+
+  .old-price {
+    font-size: 17px;
+    color: #a9a9a9;
+    text-decoration: line-through;
+  }
+
+  .price {
+    background-color: #ee3643;
+    font-size: 17px;
+    color: #ffffff;
+  }
+
+  .new {
+    background-color: #ee3643;
+    font-size: 5px;
+    color: #ffffff;
+  }
+
+  .popular-manufacturers {
+    background-color: #f9f5f0;
+    font-size: 30px;
+    color: #32425c;
+  }
+
+  .manufacturers-button {
+    background-color: #ee3643;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  .manufacturer-item {
+    border: 2px solid #eaeaea;
+    padding: 5px;
+  }
+
+  .slider-services h2 {
+    font-size: 30px;
+    color: #000000;
+  }
+
+  .slider-services p {
+    font-size: 13px;
+    color: #000000;
+  }
+
+  .slider-servises-control{
+    list-style: none;
+    background: #32425c;
+    font-size: 21px;
+    color: #ffffff;
+  }
+
+  input[type=radio] {
+    display: none;
+ }
+
+ .slider-servises-control a{
+   color: #ffffff;
+ }
+
+  .slider-servises-control:hover {
+    background: #293449;
+    font-size: 21px;
+    color: #ffffff;
+  }
+
+  .slider-servises-control:active {
+    background: #ffffff;
+    font-size: 21px;
+    color: #32425c;
+  }
+
+  .srv {
+    border: 1px #000000 solid;
+  }
+
+  .delivery p {
+    font-size: 13px;
+    color: #000000;
+  }
+
+.delivery h3 {
+  font-size: 36px;
+  color: #32425c;
+}
+
+.guarantee h3 {
+  font-size: 36px;
+  color: #32425c;
+}
+
+.guarantee p {
+  font-size: 13px;
+  color: #000000;
+}
+
+.credit h3 {
+  font-size: 36px;
+  color: #32425c;
+}
+
+.credit p {
+  font-size: 13px;
+  color: #000000;
+}
