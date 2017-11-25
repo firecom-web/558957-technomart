@@ -369,23 +369,65 @@ background-color: rgba(0,0,0,0.1);
  }
 
  .slider-servises-control a{
-   color: #ffffff;
+  color: #ffffff;
  }
 
-  .slider-servises-control:hover {
+  .srv1 {
+    border: 1px #000000 solid;
+  }
+  .srv2 {
+    border: 1px #000000 solid;
+  }
+  .srv3 {
+    border: 1px #000000 solid;
+  }
+
+  .srv1:hover {
     background: #293449;
     font-size: 21px;
     color: #ffffff;
   }
 
-  .slider-servises-control:active {
+  .srv1:active {
     background: #ffffff;
     font-size: 21px;
     color: #32425c;
   }
 
-  .srv {
-    border: 1px #000000 solid;
+  .srv1:active a {
+    color: #32425c;
+  }
+
+  .srv2:hover {
+    background: #293449;
+    font-size: 21px;
+    color: #ffffff;
+  }
+
+  .srv2:active {
+    background: #ffffff;
+    font-size: 21px;
+    color: #32425c;
+  }
+
+  .srv2:active a {
+    color: #32425c;
+  }
+
+  .srv3:hover {
+    background: #293449;
+    font-size: 21px;
+    color: #ffffff;
+  }
+
+  .srv3:active {
+    background: #ffffff;
+    font-size: 21px;
+    color: #32425c;
+  }
+
+  .srv3:active a {
+    color: #32425c;
   }
 
   .delivery p {
@@ -416,4 +458,63 @@ background-color: rgba(0,0,0,0.1);
 .credit p {
   font-size: 13px;
   color: #000000;
+}
+
+.company h2 {
+  font-size: 30px;
+  color: #000000;
+}
+
+.company p {
+  font-size: 13px;
+  color: #000000;
+}
+
+.company a {
+  background-color: #ee3643;
+  color: #ffffff;
+}
+
+.delivery-company-item {
+  list-style: none;
+  font-size: 18px;
+  color: #000000;
+}
+
+.contacts2 h2 {
+  font-size: 30px;
+  color: #000000;
+}
+
+.contacts2 p {
+  font-size: 13px;
+  color: #000000;
+}
+.write-us {
+  background-color: #ee3643;
+  color: #ffffff;
+}
+
+.upper-footer {
+  background-color: #32425c;
+
+}
+.upper-footer a {
+  color: #ffffff;
+}
+
+.site-navigation-items {
+  list-style: none;
+}
+
+.address {
+background-color: #32425;
+}
+
+.bottom-footer {
+  background: #293449;
+}
+
+.soc-but {
+  list-style: none;
 }

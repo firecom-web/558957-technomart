@@ -142,7 +142,7 @@
 </section>
 <section class="popular-manufacturers">
 <h2>популярные производители:</h2>
-<div><a class="manufacturers-button">Все популярные товары</a></div>
+<div><a href="#" class="manufacturers-button">Все производители</a></div>
 </section>
 <section class="manufacturers-logo">
   <h2 class="visually-hidden">Логотипы производителей
@@ -187,9 +187,9 @@
       <p>Хороший интернет-магазин отличается от плохого не только ценами!
 Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 <ul class="slider-servises-control">
-<li class="srv"><a href="#"><input type="radio" checked>Доставка</a></li>
-<li class="srv"><a href="#"><input type="radio">Гарантия</a></li>
-<li class="srv"><a href="#"><input type="radio">Кредит</a></li>
+<li class="srv1"><a href="#"><input type="radio" checked>Доставка</a></li>
+<li class="srv2"><a href="#"><input type="radio">Гарантия</a></li>
+<li class="srv3"><a href="#"><input type="radio">Кредит</a></li>
 </ul>
 <ul class="service-item">
 <li class="delivery">
@@ -224,20 +224,12 @@
   <p>Мы можем доставить ваш товар в самые отдаленные точки России!
     Техномарт работает со многими транспортными компаниями:</p>
     <ul class="delivery-company-item">
-<li class="delivery-company">
-  <h3>Деловые линии</h3>
-</li>
-<li class="delivery-company">
-  <h3>Автотрейдинг</h3>
-</li>
-<li class="delivery-company">
-  <h3>ЖелДорЭкспедиция</h3>
-</li>
+<li class="delivery-company"><h3>Деловые линии</h3></li>
+<li class="delivery-company"><h3>Автотрейдинг</h3></li>
+<li class="delivery-company"><h3>ЖелДорЭкспедиция</h3></li>
     </ul>
-    <div><form class="company" method="get" action="company.html">
-    <button type="submit" class="company-button">Подробнее о компании</button>
-    </form>
-    </div>
+    <div>
+    <a href="#">Подробнее о компании</a></div>
         </section>
   <section class="contacts2">
 <h2>Контакты</h2>
@@ -246,9 +238,10 @@
 заехав в наш офис
 </p>
 <a href="img/map-popup.jpg" alt="карта"><img src="img/map.jpg" alt="Карта"></a>
+<div><a href="#" class="write-us">Заблудились? Напишите нам</a></div>
   </section>
     </main>
-    <footer class="upper footer">
+    <footer class="upper-footer">
       <a class="main-footer-logo">
       <img src="img/tehnomart-logo-bottom.png" width="350" height="150" alt="Логотип Техномарт">
     </a>
@@ -276,7 +269,7 @@
       <p>© 2010-2017 Компания "Техномарт"
         <br>Все права защищены</p>
         <div class="footer-social">
-          <ul>
+          <ul class="soc-but">
 <li><a class="social-button" href="#">Вконтакте</a></li>
 <li><a class="social-button" href="#">Фейсбук</a></li>
 <li><a class="social-button" href="#">Инстаграм</a></li>
@@ -291,7 +284,7 @@
   <a href="htmlacademy.ru">htmlacademy.ru</a>
 </p>
     </footer>
-    <section class="modal modal-write-us">
+    <section class="modal-write-us">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form class="write-us" method="get" action="https://echo.htmlacademy.ru" method="post">
 <div><h3>Ваше имя</h3>
@@ -306,7 +299,6 @@
 <input class="letter-field" type="text" name="letter" placeholder="В свободной форме">
 </div>
 <button type="submit" class="sending">Отправить</button>
-<button class="write-us-button" type="submit" name="write-us">Заблудились? Напишите нам!</button>
 </form>
       <span class="modal-close">x</span>
     </section>
