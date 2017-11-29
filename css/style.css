@@ -329,6 +329,17 @@ background-color: rgba(0,0,0,0.1);
     font-size: 5px;
     color: #ffffff;
   }
+.my-block:hover .picture {
+    display: none;
+  }
+
+  .under {
+    display: none;
+  }
+
+  .under :hover {
+    display: block;
+  }
 
   .popular-manufacturers {
     background-color: #f9f5f0;
@@ -499,12 +510,25 @@ background-color: rgba(0,0,0,0.1);
   background-color: #32425c;
 
 }
-.upper-footer a {
+.white a {
+  font-size: 18px;
   color: #ffffff;
+}
+.gold a {
+  font-size: 18px;
+  color: #ffd180;
 }
 
 .site-navigation-items {
   list-style: none;
+}
+
+.site-navigation-items :hover {
+  text-decoration: underline;
+}
+
+.site-navigation-items :active {
+  opacity: 0.5;
 }
 
 .address {
@@ -517,4 +541,34 @@ background-color: #32425;
 
 .soc-but {
   list-style: none;
+}
+
+.footer-copyright b {
+  font-size: 16px;
+}
+
+.footer-copyright a {
+  font-size: 16px;
+  color: #ffd180;
+}
+
+.footer-copyright :hover {
+text-decoration: underline;
+  }
+
+.footer-copyright :active {
+  color: #ee3643;
+}
+
+.write-us {
+  background-color: #ffffff;
+}
+
+.write-us h3 {
+  color: #000000;
+}
+
+.sending {
+  background-color: #ee3643;
+  color: #ffffff;
 }
