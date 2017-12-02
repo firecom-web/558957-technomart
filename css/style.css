@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
 
+  min-width: 1200px;
+  min-height: 3151px;
+
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 17px;
   line-height: 17px;
@@ -14,9 +17,41 @@ body {
 visibility: hidden;
 }
 
-a {
-  text-decoration: none;
+.main-header {
+  margin-bottom: 60px;
+  min-height: 320px;
 }
+
+.upper-nav {
+  margin-bottom: 50px;
+  margin-left: 130px;
+  width: inherit;
+  max-height: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.left-up-nav {
+  display: flex;
+}
+
+.icon-up-nav {
+  width: 47px;
+  height: 43px;
+  opacity: 0.3;
+
+}
+
+.user-panel {
+  width: 435px;
+  height: auto;
+  margin-right: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 .main-header-logo:hover {
   background: #ca2c37;
@@ -24,6 +59,9 @@ a {
 
 .main-header-logo:active {
   background: #ba2732;
+}
+a {
+  text-decoration: none;
 }
 
 .user-navigation {
@@ -60,8 +98,9 @@ a {
 }
 
 .search-in-site {
+
   color: #ffffff;
-  background-color: #212a3a;
+  background-color: #293449;
 }
 
 .search-in-site:focus {
@@ -622,10 +661,11 @@ text-decoration: underline;
   color: #ffffff;
 }
 
+/*--не могу найти откуда это
 .cart {
   background-color: #ee3643;
   color: #ffffff;
-}
+}--*/
 
 .buy {
   background-color: #63a63e;
