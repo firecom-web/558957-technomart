@@ -18,47 +18,55 @@ visibility: hidden;
 }
 
 .main-header {
+  background-color: #f4f7f9;
   margin-bottom: 60px;
   min-height: 320px;
 }
 
 .upper-nav {
+  background-color: #293449;
   margin-bottom: 50px;
-  margin-left: 130px;
-  width: inherit;
+  width: 100%;
   max-height: 42px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-.left-up-nav {
+.left-up {
+  flex-grow: 1;
   display: flex;
+  margin-left: 130px;
 }
 
 .icon-up-nav {
   width: 47px;
   height: 43px;
   opacity: 0.3;
+  }
 
+.lupa {
+  display: flex;
+  margin: auto;
 }
 
 .user-panel {
-  width: 435px;
-  height: auto;
-  margin-right: 130px;
+  flex-grow: 1;
   display: flex;
-  justify-content: space-between;
 }
 
-
+.bookmark,
+.cart,
+.buy {
+  flex-grow: 1;
+}
 
 .main-header-logo:hover {
-  background: #ca2c37;
+  background-color: #ca2c37;
 }
 
 .main-header-logo:active {
-  background: #ba2732;
+  background-color: #ba2732;
 }
 a {
   text-decoration: none;
@@ -68,7 +76,7 @@ a {
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
-  background-color: #32425c;
+  /*background-color: #32425c;*/
 }
 
 .user-navigation a:hover {
@@ -79,9 +87,21 @@ a {
   opacity: 0.5;
 }
 
-.user-panel,
+.user-panel {
+  list-style: none;
+  background-color: #293449;
+  margin-right: 130px;
+  justify-content: space-between;
+}
+
 .site-navigation {
   list-style: none;
+  background-color: #293449;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .user-panel a,
@@ -108,11 +128,39 @@ a {
   background-color: #ffffff;
   }
 
+.middle-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
 .login {
+  flex-grow: 1;
+  margin-right: 130px;
   list-style: none;
   font-size: 21px;
   color: #black;
-  background: #ffffff;
+  background: #f4f7f9;
+
+}
+
+.contacts {
+  flex-grow: 1;
+  width: 275px;
+  margin-right: 70px;
+}
+.tel-num {
+border: 2px solid #ffffff;
+display: flex;
+}
+
+.slogan {
+  flex-grow: 1;
+  width: 200px;
+  margin-left: 175px;
+  word-wrap: normal;
+  font-family: Cuprum sans-serif;
+  font-style: italic;
 }
 
 .exit a {
@@ -138,6 +186,12 @@ a {
   opacity: 0.3;
 }
 
+.login-button,
+.register {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .login-button:hover,
 .register:hover {
   color: #ee3643;
@@ -150,17 +204,23 @@ a {
   background: #ffffff;
 }
 
+.lkmz {
+  display: flex;
+  justify-content: space-between;
+}
+
 .slogan {
   font-size: 16px;
   font-style: italic;
   color: #ee3643;
+  background-color: #f4f7f9;
 }
 
 address {
   font-size: 21px;
   font-style: normal;
   color: #e9292a;
-  background-color: #f1f5f7;
+  background-color: #f4f7f9;
 }
 
 .where {
