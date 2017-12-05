@@ -14,7 +14,16 @@ body {
 }
 
 .visually-hidden {
-visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .main-header {
@@ -39,15 +48,29 @@ visibility: hidden;
   margin-left: 130px;
 }
 
-.icon-up-nav {
-  width: 47px;
-  height: 43px;
-  opacity: 0.3;
-  }
 
 .lupa {
   display: flex;
-  margin: auto;
+  margin: 0;
+  opacity: 0.3;
+  padding: 10px;
+}
+
+.search {
+  display: block;
+  margin-top: 8px;
+}
+
+.icon-bookmark {
+  display: block;
+  opacity: 0.3;
+  padding-right: 10px;
+}
+
+.icon-cart {
+  display: block;
+  opacity: 0.3;
+  padding-right: 10px;
 }
 
 .user-panel {
@@ -59,7 +82,21 @@ visibility: hidden;
 .cart,
 .buy {
   flex-grow: 1;
+  display: flex;
+  flex-grow: 1;
+  align-self: center;
 }
+
+.bookmark a,
+.cart a,
+.buy a {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  padding: 12px;
+}
+
+
 
 .main-header-logo:hover {
   background-color: #ca2c37;
@@ -95,13 +132,20 @@ a {
 }
 
 .site-navigation {
-  list-style: none;
-  background-color: #293449;
-  display: flex;
-  height: 60px;
-  justify-content: space-around;
   margin-left: 130px;
   margin-right: 130px;
+  list-style: none;
+  background-color: #32425c;
+  display: flex;
+  flex-grow: 1;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 5px #293449;
+}
+
+.site-navigation a {
+
 }
 
 .user-panel a,
@@ -121,46 +165,94 @@ a {
 
   color: #ffffff;
   background-color: #293449;
+  opacity: 0;
 }
 
 .search-in-site:focus {
   color: black;
   background-color: #ffffff;
+  opacity: 1;
   }
 
 .middle-nav {
+  margin-left: 130px;
+  margin-right: 130px;
   display: flex;
+  flex-grow: 1;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
 .login {
   flex-grow: 1;
-  margin-right: 130px;
   list-style: none;
   font-size: 21px;
   color: #black;
   background: #f4f7f9;
+  text-align: right;
+}
 
+.login-button,
+.register {
+  border: 0;
+  padding: 12px;
+}
+
+.login-button {
+  margin-right: 10px;
+}
+
+.icon-login {
+  padding-right: 15px;
 }
 
 .contacts {
   flex-grow: 1;
   width: 275px;
-  margin-right: 70px;
 }
+
+.icon-phone {
+  display: block;
+  padding: 15px;
+}
+
+.telephone {
+  display: block;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-self: baseline;
+}
+
 .tel-num {
 border: 2px solid #ffffff;
 display: flex;
+width: 270px;
+
+}
+
+.where {
+  padding-top: 8px;
 }
 
 .slogan {
   flex-grow: 1;
   width: 200px;
-  margin-left: 175px;
   word-wrap: normal;
   font-family: Cuprum sans-serif;
   font-style: italic;
+  display: block;
+}
+
+.slogan {
+  font-size: 16px;
+  font-style: italic;
+  color: #ee3643;
+  background-color: #f4f7f9;
+}
+
+.slogan1 {
+  margin-top: 0px;
 }
 
 .exit a {
@@ -209,11 +301,8 @@ display: flex;
   justify-content: space-between;
 }
 
-.slogan {
-  font-size: 16px;
-  font-style: italic;
-  color: #ee3643;
-  background-color: #f4f7f9;
+.contacts {
+      text-align: -webkit-right;
 }
 
 address {
@@ -228,11 +317,44 @@ address {
   color: #32425c;
 }
 
+.features-list {
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-bottom: 55px;
+  padding-left: 0;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  list-style: none;
 
+}
+
+.grafica {
+
+}
+
+.flag{
+  /*  position:absolute;*/
+    top:-1px;
+    right:-1px;
+    width:60px;
+    height:60px;
+    text-indent:-1000px;
+    overflow:hidden;
+     z-index:20;
+}
+.flag-new{
+    background:url("../img/new.png") no-repeat 0 0;
+}
 
 .feateres-item1 {
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 125px;
   background-color: #f6b22d;
-}
+  }
 
 .feateres-item1 a {
   color: #ffffff;
@@ -252,6 +374,10 @@ address {
 
 .feateres-item2 {
   background-color: #3bbce3;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 125px;
 }
 
 .feateres-item2 p {
@@ -272,6 +398,10 @@ address {
 
 .feateres-item3 {
   background-color: #dc91d8;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 125px;
   }
 
 .feateres-item3 a {
@@ -292,6 +422,10 @@ address {
 
 .feateres-item4 {
   background-color: #8ed78f;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 125px;
 }
 
 .feateres-item4 a {
@@ -312,6 +446,10 @@ address {
 
 .feateres-item5 {
   background-color: #ffc047;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 125px;
 }
 
 .feateres-item5 a {
