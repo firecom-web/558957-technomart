@@ -164,7 +164,7 @@
 <a href="#"><!--img src="img/slider1.jpg" width="350" height="150" alt="Перфораторы"--></a>
 <div class="button-slider-back"></div>
 <div class="button-slider-next"></div>
-<div><form class="catalog" method="get" action="#">
+<div class="catalog"><form  method="get" action="#">
 <button type="submit" class="catalog-button">Открыть каталог</button>
 </form>
 </div>
@@ -327,23 +327,24 @@
 </section>
   <section class="slider-services">
     <h2>Сервисы</h2>
-      <p>Хороший интернет-магазин отличается от плохого не только ценами!
+      <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
 Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-<ul class="slider-servises-control">
-<li class="srv1"><a href="#"><input type="radio" checked>Доставка</a></li>
+<div class="serv-slider"><div class="serv-teni"><ul class="slider-servises-control">
+<li class="srv1">Доставка<a href="#"><input type="radio">Доставка</a></li>
 <li class="srv2"><a href="#"><input type="radio">Гарантия</a></li>
 <li class="srv3"><a href="#"><input type="radio">Кредит</a></li>
 </ul>
+<img src="img/teni-serv.png" width="10" height="200" alt="тень"></div>
 <ul class="service-item">
 <li class="delivery">
-  <a href="delivery-description">
-  <h3>Доставка</h3></a>
-  <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду
-    совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его
-    на ваш этаж!</p>
-    <img src="img/delivery-service.png" width="250" height="150" alt="Доставка">
-    </li>
-<li class="guarantee">
+  <div class="serv-deliv"><a href="delivery-description">
+  <div><h3>Доставка</h3></a>
+  <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду
+    совершенно бесплатно!<br> Ведь мы неплохо заработаем,<br> поднимая его
+    на ваш этаж!</p></div>
+    <img src="img/delivery-service.png" width="440" height="200" alt="Доставка"></div>
+  </li></div>
+<!--<li class="guarantee">
   <a href="guarantee-description.html">
     <h3>Гарантия</h3></a>
     <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара,
@@ -357,10 +358,10 @@
   <h3>Кредит</h3></a>
   <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
   <img src="img/credit-service.png" width="250" height="150" alt="Кредит">
-    </li>
+</li>-->
 </ul>
       </section>
-  <section class="company">
+  <div class="company-contacts"><section class="company">
 <h2>Компания "Техномарт"</h2>
 <p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и
   строительства не оставит равнодушными любителей сэкономит на гастарбайтерах.</p>
@@ -371,40 +372,40 @@
 <li class="delivery-company"><h3>Автотрейдинг</h3></li>
 <li class="delivery-company"><h3>ЖелДорЭкспедиция</h3></li>
     </ul>
-    <div>
-    <a href="#">Подробнее о компании</a></div>
+
+    <a class="compan" href="#">Подробнее о компании</a>
         </section>
   <section class="contacts2">
 <h2>Контакты</h2>
 <p>
-Вы можете забрать товар сами,
+Вы можете забрать товар сами,<br>
 заехав в наш офис
 </p>
-<a href="img/map-popup.jpg" alt="карта"><img src="img/map.jpg" alt="Карта"></a>
+<a href="img/map-popup.jpg" alt="карта"><img class="map-contact" src="img/map.jpg" width="300" height="160" alt="Карта"></a>
 <div><a href="#" class="write-us">Заблудились? Напишите нам</a></div>
-  </section>
+</section></div>
     </main>
     <footer class="upper-footer">
       <a class="main-footer-logo">
-      <img src="img/tehnomart-logo-bottom.png" width="350" height="150" alt="Логотип Техномарт">
+      <img src="img/tehnomart-logo-bottom.png" width="220" height="70" alt="Логотип Техномарт">
     </a>
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
-      <address>
+      <div class="adress-f">
       г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-      <br>+7(812)555-05-55</address>
+      <br>+7(812)555-05-55</div>
     </section>
     <div class="footer-navigation">
       <ul class="site-navigation-items">
-        <li class="white"> <a href="company.html">Компания</a></li>
+        <div class="white1"><li class="white"> <a href="company.html">Компания</a></li>
         <li class="white"> <a href="news.html">Новости</a></li>
         <li class="white"> <a href="catalog.html">Каталог</a></li>
         <li class="white"> <a href="delivery.html">Доставка</a></li>
-        <li class="white"> <a href="contacts.html">Контакты</a></li>
-        <li class="gold"> <a href="materials.html">Материалы</a></li>
+        <li class="white"> <a href="contacts.html">Контакты</a></li></div>
+      <div class="gold1">  <li class="gold"> <a href="materials.html">Материалы</a></li>
         <li class="gold"> <a href="technics.html">Техника</a></li>
         <li class="gold"> <a href="tools.html">Инструмент</a></li>
-        <li class="gold"> <a href="special-offers.html">Спецпредложения</a></li>
+        <li class="gold"> <a href="special-offers.html">Спецпредложения</a></li></div>
       </ul>
     </div>
     </footer>
@@ -419,31 +420,33 @@
 </ul>
 </div>
 <p class="footer-copyright">
-  <b>Обратная связь:</b>
+  <b>Обратная связь:</b><br>
   <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
 </p>
 <p class="footer-copyright">
-  <b>Разработано-</b>
+  <b>Разработано-</b><br>
   <a href="htmlacademy.ru">htmlacademy.ru</a>
 </p>
     </footer>
     <section class="modal-write-us">
       <h2 class="visually-hidden">Напишите нам</h2>
-      <form class="write-us" method="get" action="https://echo.htmlacademy.ru" method="post">
-<div><h3>Ваше имя</h3>
+      <form class="mod-write-us" method="get" action="https://echo.htmlacademy.ru" method="post">
+<div class="contact-mod"><div><h3>Ваше имя</h3>
   <label class="visually-hidden">Имя</label>
   <input class="name-field" type="text" name="name" placeholder="Представьтесь пожалуйста"></div>
 <div><h3>Ваш e-mail</h3>
   <label class="visually-hidden">e-mail</label>
   <input class="e-mail-field" type="email" name="email" placeholder="Для отправки ответа">
-</div>
-<div><h3>Текст письма</h3>
+</div></div>
+<div class="letter-mod"><h3>Текст письма</h3>
   <label class="visually-hidden">Поле для ввода текста письма</label>
 <input class="letter-field" type="text" name="letter" placeholder="В свободной форме">
 </div>
-<button type="submit" class="sending">Отправить</button>
+<div class="button-mod">
+<button type="submit" class="sending">Отправить</button></div>
+<span class="modal-close">x</span>
 </form>
-      <span class="modal-close">x</span>
+
     </section>
     </body>
 </html>
