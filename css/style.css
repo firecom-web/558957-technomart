@@ -200,6 +200,7 @@ a {
   color: #black;
   background: #f4f7f9;
   text-align: right;
+  margin-top: 0;
 }
 
 .login-button,
@@ -310,7 +311,12 @@ width: 270px;
 .lkmz {
   display: flex;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 14px;
 }
+
+
 
 .contacts {
       text-align: -webkit-right;
@@ -1314,11 +1320,29 @@ text-decoration: underline;
   color: #000000;
   border-top: 7px solid #ff5358;
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
-
   }
 
   .mod-write-us h3 {
     text-align: left;
+  }
+
+  .modal-cart {
+    width: 620px;
+    height: 280px;
+    border-top: 7px solid #ff5358;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5)
+  }
+
+  .gal {
+    display: flex;
+    padding-left: 80px;
+    margin-top: 48px;
+    padding-bottom: 23px;
+
+  }
+
+  .gal h2 {
+    margin-left: 30px;
   }
 
   .contact-mod {
@@ -1365,6 +1389,30 @@ text-decoration: underline;
   color: #ffffff;
 }--*/
 
+.main-header-cat {
+  margin: 0;
+}
+
+.cart-cat {
+  background-color: #ee3643;
+}
+
+.l-b-cat {
+  margin-right: 0;
+  padding-right: 0;
+  margin-left: auto;
+  display: flex;
+  font-size: 19px;
+}
+
+.icon-user {
+  padding-right: 10px;
+}
+
+.icon-login-cat {
+  padding-left: 10px;
+}
+
 .buy {
   background-color: #63a63e;
   color: #ffffff;
@@ -1374,63 +1422,183 @@ text-decoration: underline;
   list-style: none;
   background-color: #ffffff;
   color: #000000;
+  display: flex;
+  padding-left: 0;
+  margin-left: 120px;
+}
+
+.home-cat {
+  margin-left: -20px;
+}
+
+.breadcrumbs li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-cat {
+  padding-left: 0;
 }
 
 .perforators {
   background-color: #f2f6f8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .perforators h2 {
   font-size: 30px;
   color: #32425c;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 30px;
 }
 
 .filter-in {
   background-color: #f7f3ec;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 120px;
+  margin-right: 850px;
+  text-align: left;
+  margin-top: 20px;
+
 }
 
 .filter-in h3 {
+  margin-left: 15px;
   font-size: 13px;
   color: #000000;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.sortby {
+  background-color: #f7f3ec;
+  padding-top: 15px;
+  padding-bottom: 0;
+  margin-left: 370px;
+  margin-right: 120px;
+  margin-top: -47px;
+
 }
 
 .price-in {
   background-color: #ffffff;
   color: #000000;
   font-size: 17px;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 .range {
   background-color: #f7f3ec;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-right: 850px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .min-sum {
   background-color: #f7f3ec;
   color: #000000;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 30px;
 }
 
 .pro {
   background-color: #ffffff;
   color: #000000;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.max-sum {
+  background-color: #f7f3ec;
+  color: #000000;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.description-range {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 850px;
+  border-bottom: 1px solid #ccc;
 }
 
 .manufacturers-in {
   background-color: #ffffff;
   color: #000000;
+  margin-left: 120px;
+  margin-right: 850px;
+  margin-top: 25px;
+  text-align: left;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.manufacturers-in fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+
 }
 
 .manufacturers {
   list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+.manufacturers li {
+  margin-bottom: 15px;
 }
 
 .power-in {
   background-color: #ffffff;
   color: #000000;
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 850px;
+  }
+
+.power-in fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .power {
   list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+.power li {
+  margin-bottom: 15px;
+}
+
+.show {
+  margin-right: 870px;
+  margin-top: 55px;
 }
 
 .filter-button-button {
@@ -1439,17 +1607,36 @@ text-decoration: underline;
 }
 
 .search-param {
-  background-color: #ffffff;
+  background-color: #f7f3ec;
   color: #000000;
+
+
+}
+
+.search-param fieldset {
+  border: none;
+  text-align: left;
+  padding-bottom: 0;
+  padding-right: 0;
 }
 
 .filter2 {
   list-style: none;
+  display: flex;
+  margin-bottom: 2px;
+  margin-top: -22px;
+  margin-left: 118px;
 }
 
 .filter-option2 {
   border-bottom: 2px dashed #ee3643;
   opacity: 0.3;
+  margin-left: 70px;
+}
+
+.but-cat {
+  display: flex;
+  margin-left: 30px;
 }
 
 .filter-option2:hover {
@@ -1461,6 +1648,12 @@ text-decoration: underline;
   color: #ee3643;
   border-bottom: 2px dashed #ee3643;
   opacity: 1;
+}
+
+.width-catalog {
+  margin-left: 240px;
+  margin-top: -605px;
+  color: #000000;
 }
 
 .pagination-item {
@@ -1476,6 +1669,19 @@ text-decoration: underline;
 
 .pagination-list {
   list-style: none;
+  display: flex;
+  padding: 0;
+  margin-left: 130px;
+  margin-top: 35px;
+}
+
+.pagination-list li {
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 .pagination-item:hover {
@@ -1490,6 +1696,24 @@ text-decoration: underline;
   border: 2px solid #ee3643;
 }
 
+.description {
+  background-color: #f2f6f8;
+  text-align: left;
+  margin-left: -240px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 35px;
+  padding-bottom: 75px;
+}
+
+.description p {
+  font-size: 13px;
+}
+
+.upper-footer-cat {
+  margin-top: 0;
+}
+
 .modal-cart h2 {
   font-size: 30px;
   color: #000000;
@@ -1499,14 +1723,27 @@ text-decoration: underline;
   background-color: #ee3643;
   color: #ffffff;
   font-size: 14px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0;
+  margin-right: 10px;
+
 }
 
 .continue-choose {
   background-color: #ffffff;
   color: #000000;
   font-size: 14px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .button-mod {
   background-color: #f1f1f1;
+  padding-left: 80px;
+  padding-right: 80px;
 }
